@@ -8,7 +8,6 @@
 	/**********************************
 	TWO COLUMN LAYOUT
 	***********************************/
-
 	#primary {
 		width: 50%;
 		float: left;
@@ -25,7 +24,7 @@
 	***********************************/
 
 	#gallery li {
-		width: 28.3333%;
+		width: 45%;
 	}
 
 	#gallery li:nth-child(4n) {
@@ -81,6 +80,14 @@
 	header {
 		border-bottom: 5px solid #000000;
 		margin-bottom: 60px;
+	}
+
+	/**********************************
+	THREE COLUMN LAYOUT
+	***********************************/
+
+	#gallery li {
+		width: 28.33333%;
 	}
 }
 
